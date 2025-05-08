@@ -28,7 +28,7 @@ class list
         node *nodebaru = new node;
         nodebaru->noMhs = nim;
 
-        if (START == NULL) || (nim <= START->noMhs))
+        if (START == NULL) || nim <= START->noMhs)
         {
             if ((START != NULL) && (nim == START->noMhs))
             {
