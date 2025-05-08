@@ -202,14 +202,13 @@ int main()
 }
 
 
-void traverse() {
-    if (listempty()) {
-        cout << "\nlist kosong\n";
-    } else {
-        cout << "\ndata didalam list adalah:\n";
+int main() {
+    ...
+    while (1) {
+        cout << endl << "menu";
+        cout << endl << "1. menambahkan data...";
         ...
-    }
-}
+
 
 
 
