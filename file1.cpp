@@ -203,9 +203,13 @@ int main()
 
 
 
-bool listempty() {
-    return (START == NULL);
-}
+bool delnode(int nim) {
+    node *current, *previous;
+    if (!sreach(nim, &previous, &current))
+        return false;
+
+    if (current = START)  // <-- BUG di sini
+        START = START->next;
 
 
 
