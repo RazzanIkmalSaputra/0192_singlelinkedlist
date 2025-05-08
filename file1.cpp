@@ -202,14 +202,15 @@ int main()
 }
 
 
+void traverse() {
+    if (listempty()) {
+        cout << "\nlist kosong\n";
+    } else {
+        cout << "\ndata didalam list adalah:\n";
+        ...
+    }
+}
 
-bool delnode(int nim) {
-    node *current, *previous;
-    if (!sreach(nim, &previous, &current))
-        return false;
-
-    if (current = START)  // <-- BUG di sini
-        START = START->next;
 
 
 
