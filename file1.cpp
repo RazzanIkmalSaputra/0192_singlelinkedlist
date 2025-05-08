@@ -28,12 +28,12 @@ class list
         node *nodebaru = new node;
         nodebaru->noMhs = nim;
 
-        if (START == NULL) || nim <= START->noMhs)
+        if (START == NULL || nim <= START->noMhs)
         {
             if ((START != NULL) && (nim == START->noMhs))
             {
                 cout << "\nDuplikasi noMhs tidak diijinkan\n";
-                return
+                return;
             }
 
             nodebaru->next = START;
@@ -42,14 +42,14 @@ class list
         }
 
         node *previous = START;
-        node *current = START
+        node *current = START;
 
         while ((current !=NULL) && (nim >=current->noMhs))
         {
-            if (nim ==current->noMHs)
+            if (nim ==current->noMhs)
             {
-                cout <<"\nDuplikasi noMHs tidak diijinkan\n";
-                return
+                cout <<"\nDuplikasi noMhs tidak diijinkan\n";
+                return;
             }
             previous = current;
             current = current->next;
@@ -59,7 +59,7 @@ class list
         previous->next = nodebaru;
     }
 
-    booll listempty()
+    bool listempty()
 
 
 
