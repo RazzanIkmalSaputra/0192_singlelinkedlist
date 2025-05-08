@@ -205,4 +205,12 @@ int main()
 
 
 
-//bool listempty() { return (START == NULL); }
+//class node {
+ public:
+ int noMhs;
+ node *next;
+};
+
+class list {
+ node *START;
+
