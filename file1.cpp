@@ -203,13 +203,9 @@ int main()
 
 
 
+bool listempty() {
+    return (START == NULL);
+}
 
-//void addnode() {
-    ...
-    if (START == NULL || nim <= START->noMhs) {
-        if ((START != NULL) && (nim == START->noMhs)) {
-            cout << "\nDuplikasi noMhs tidak diijinkan\n";
-            return;
-        }
 
 
