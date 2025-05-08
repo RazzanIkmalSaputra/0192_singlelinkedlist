@@ -204,13 +204,12 @@ int main()
 
 
 
+//void addnode() {
+    ...
+    if (START == NULL || nim <= START->noMhs) {
+        if ((START != NULL) && (nim == START->noMhs)) {
+            cout << "\nDuplikasi noMhs tidak diijinkan\n";
+            return;
+        }
 
-//class node {
- public:
- int noMhs;
- node *next;
-};
-
-class list {
- node *START;
 
