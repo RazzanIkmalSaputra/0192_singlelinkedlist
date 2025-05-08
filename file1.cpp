@@ -202,12 +202,10 @@ int main()
 }
 
 
-int main() {
-    ...
-    while (1) {
-        cout << endl << "menu";
-        cout << endl << "1. menambahkan data...";
-        ...
+if (mhs.delnode(nim) == false)
+    cout << endl
+         << "data dengan nomor mahasiswa " << nim << "berhasil di hapus " <<endl;
+
 
 
 
