@@ -202,10 +202,6 @@ int main()
 }
 
 
-if (mhs.delnode(nim) == false)
-    cout << endl
-         << "data dengan nomor mahasiswa " << nim << "berhasil di hapus " <<endl;
-
 
 
 
